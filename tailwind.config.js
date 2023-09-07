@@ -8,7 +8,7 @@ module.exports = {
     './node_modules/pliny/**/*.js',
     './app/**/*.{js,ts,jsx,tsx}',
     './pages/**/*.{js,ts,tsx}',
-    './components/**/*.{js,ts,tsx}',
+    './components/**/*.{js,jsx,ts,tsx}',
     './layouts/**/*.{js,ts,tsx}',
     './data/**/*.mdx',
   ],
@@ -27,6 +27,18 @@ module.exports = {
       colors: {
         primary: colors.pink,
         gray: colors.gray,
+        secondary: '#FFBA43',
+        headerColor: '#1a1a1a',
+        bodyTextColor: '#4E4B66',
+        bodyTextColorWhite: '#FAFBFC',
+      },
+      fontSize: {
+        topperFontSize: ['0.8125rem', { lineHeight: '1.2em' }],
+        headerFontSize: ['1.9375rem', { lineHeight: '1.2em' }],
+      },
+      spacing: {
+        sectionPadding: '4rem',
+        csContent: '33.875rem',
       },
       typography: ({ theme }) => ({
         DEFAULT: {
